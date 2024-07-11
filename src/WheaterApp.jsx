@@ -38,6 +38,8 @@ export const WheaterApp = () => {
 
     <h1>Aplicación del Clima</h1>
 
+    <p>Ingrese: el nombre de una ciudad</p>
+
     <form onSubmit={handleSubmit}>
         <input type="text" 
         value={ciudad}
